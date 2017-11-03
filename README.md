@@ -2,7 +2,7 @@
 This guide will take you through setting up a Vulkan project in Visual Studio environment.
 
 # Requirements
-This guide assumes that you already have [Visual Studio 2017][1] installed on your system, as well as [Vulkan SDK][2]. It is also assumed that your hardware has Vulkan support and your drivers are up to date. A quick way to check if everything works as intended is to run `cube.exe` in the `Bin32` folder where Vulkan SDK is installed.
+This guide assumes that you already have [Visual Studio 2017][1] installed on your system, as well as [Vulkan SDK][2]. It is also assumed that your hardware has Vulkan support and your drivers are up to date. A quick way to check if everything works as intended is to run `cube.exe` in the `Bin` folder if you're on a `64-bit` system or in `Bin32` folder for `32-bit` systems, located in the Vulkan SDK installation directory.
 
 This guide will also use [GLFW utility library][3], which supports both Windows and Linux. We will also use the [GLM mathematics library][4].
 
