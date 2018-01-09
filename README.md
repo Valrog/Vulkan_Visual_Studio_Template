@@ -4,6 +4,11 @@ This is merely a quick reference guide that will help you set up a Vulkan templa
 # Requirements
 It is assumed that you already have [Visual Studio 2017][2] installed on your system, as well as [Vulkan SDK][3]. It is also assumed that your hardware has Vulkan support and your drivers are up to date. We will use [GLFW utility library][4] and the [GLM mathematics library][5].
 
+# Removing Templates
+
+Removing a template from Visual Studio 2017 is done by deleting a template inside the ``ProjectTemplatesCache`` folder. Full path to this folder is located at ``%APPDATA%\Microsoft\VisualStudio\<version_ID>\ProjectTemplatesCache``
+
+
 
 [1]: https://vulkan-tutorial.com/Development_environment "Development Environment - Vulkan Tutorial"
 [2]: https://www.visualstudio.com/vs/ "Visual Studio IDE"
