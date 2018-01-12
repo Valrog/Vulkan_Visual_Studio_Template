@@ -4,10 +4,10 @@ This is merely a quick reference guide that will help you set up a Vulkan templa
 # Requirements
 It is assumed that the required software is already installed on your system. It is also assumed that your hardware has Vulkan support and your drivers are up to date.
 
-[Visual Studio 2017][2]
-[Vulkan SDK][3]
-[GLFW utility library][4]
-[GLM mathematics library][5]
+* [Visual Studio 2017][2]
+* [Vulkan SDK][3]
+* [GLFW utility library][4]
+* [GLM mathematics library][5]
 
 # Configuring Visual Studio
 
