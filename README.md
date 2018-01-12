@@ -13,6 +13,8 @@ It is assumed that the required software is already installed on your system. It
 
 Project Templates have been changed in Visual Studio 2017 [Update 15.3][6]. For this setup, a ``Windows Desktop Wizard`` will be used as the foundation.
 
+<img src="Screencaps/New_Project.png" alt="New Project Window" width="70%" height="70%" />
+
 # Removing Templates
 
 Removing a template from Visual Studio 2017 is done by deleting a template inside the ``ProjectTemplatesCache`` folder. Full path to this folder is located at ``%APPDATA%\Microsoft\VisualStudio\<version_ID>\ProjectTemplatesCache``
