@@ -43,16 +43,17 @@ Vulkan and GFWL object files are added through ``Linker`` -> ``Input`` -> ``Addi
 
 ## Testing
 
-After compiling the project, the command prompt and a blank window appear on the screen. The number of supported extensions should be non-zero. If the program returns zero, then this means something went wrong during driver or SDK installations. 
+After compiling the project, the command prompt and a blank window appear on the screen. The number of supported extensions should be non-zero. If the program returns zero, then this means something went wrong during driver or SDK installations.
 
+<img src="Screencaps/Compile_Test.png" alt="Vulkan window" />
 
 # Exporting Template
+
+Exporting a template is done through ``Project`` -> ``Export Template...`` -> ``Project template`` window. ``Icon Image`` and ``Preview Image`` can be found in the ``Resources`` folder of this project.
 
 # Removing Templates
 
 Removing a template from Visual Studio 2017 is done by deleting a template inside the ``ProjectTemplatesCache`` folder. Full path to this folder is located at ``%APPDATA%\Microsoft\VisualStudio\<version_ID>\ProjectTemplatesCache``
-
-
 
 [1]: https://vulkan-tutorial.com/Development_environment "Development Environment - Vulkan Tutorial"
 [2]: https://www.visualstudio.com/vs/ "Visual Studio IDE"
