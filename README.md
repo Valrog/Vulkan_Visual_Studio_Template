@@ -43,7 +43,7 @@ Vulkan and GFWL object files are added through ``Linker`` -> ``Input`` -> ``Addi
 
 ## Testing
 
-
+After compiling the project, the command prompt and a blank window appear on the screen. The number of supported extensions should be non-zero. If the program returns zero, then this means something went wrong during driver or SDK installations. 
 
 
 # Exporting Template
