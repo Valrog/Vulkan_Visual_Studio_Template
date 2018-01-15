@@ -19,7 +19,28 @@ The new Project Options window now looks like this.
 
 <img src="Screencaps/Project_Options.png" alt="Project Options Window" />
 
-A new ``C++ File (.cpp)`` is added to the ``Source Files``. This will serve as the foundation of the Vulkan template.
+A new ``C++ File (.cpp)`` is added to the ``Source Files``. This will serve as the main file for the Vulkan template.
+
+<img src="Screencaps/New_Item.png" alt="New Item" />
+
+Sample file is included in this guide and can be used as a starting point.
+
+## Configuring Properties
+
+Visual Studio must be configured to know where to find Vulkan dependencies and directories. These settings can be found under ``Project`` -> ``Properties``. ``All Configurations`` should be selected. Vulkan, GLFW and GLM header directories are included through ``C/C++`` -> ``General`` -> ``Additional Include Directories``.
+
+Under ``Linker`` -> ``General`` -> ``Additional Library Directories``, appropriate Vulkan and GLFW library directories have to be added.
+
+Vulkan and GFWL object files are added through ``Linker`` -> ``Input`` -> ``Additional Dependencies``.
+
+**Note:** Example shows configuring files for ``64-bit`` development. Setup for ``32-bit`` development is equivalent, the main difference is in which files are linked.
+
+## Testing
+
+
+
+
+# Exporting Template
 
 # Removing Templates
 
