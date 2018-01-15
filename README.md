@@ -13,7 +13,13 @@ It is assumed that the required software is already installed on your system. It
 
 Project Templates have been changed in Visual Studio 2017 [Update 15.3][6]. For this setup, a ``Windows Desktop Wizard`` will be used as the foundation.
 
-<img src="Screencaps/New_Project.png" alt="New Project Window" width="70%" height="70%" />
+<img src="Screencaps/New_Project.png" alt="New Project window" width="70%" height="70%" />
+
+The new Project Options window now looks like this.
+
+<img src="Screencaps/Project_Options.png" alt="Project Options Window" />
+
+A new ``C++ File (.cpp)`` is added to the ``Source Files``. This will serve as the foundation of the Vulkan template.
 
 # Removing Templates
 
