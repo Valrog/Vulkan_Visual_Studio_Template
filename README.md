@@ -13,7 +13,7 @@ It is assumed that the required software is already installed on your system. It
 
 Project Templates have been changed in Visual Studio 2017 [Update 15.3][6]. For this setup, a ``Windows Desktop Wizard`` will be used as the foundation.
 
-<img src="Screencaps/New_Project.png" alt="New Project window" width="70%" height="70%" />
+<img src="Screencaps/New_Project.png" alt="New Project window" />
 
 The new Project Options window now looks like this.
 
@@ -29,11 +29,17 @@ Sample file is included in this guide and can be used as a starting point.
 
 Visual Studio must be configured to know where to find Vulkan dependencies and directories. These settings can be found under ``Project`` -> ``Properties``. ``All Configurations`` should be selected. Vulkan, GLFW and GLM header directories are included through ``C/C++`` -> ``General`` -> ``Additional Include Directories``.
 
+<img src="Screencaps/Additional_Include_Directories.png" alt="Additional Include Directories window" />
+
 Under ``Linker`` -> ``General`` -> ``Additional Library Directories``, appropriate Vulkan and GLFW library directories have to be added.
+
+<img src="Screencaps/Additional_Library_Directories.png" alt="Additional Library Directories window" />
+
+**Note:** Example shows configuring files for ``64-bit`` development. Setup for ``32-bit`` development is equivalent, the main difference is in which files are linked.
 
 Vulkan and GFWL object files are added through ``Linker`` -> ``Input`` -> ``Additional Dependencies``.
 
-**Note:** Example shows configuring files for ``64-bit`` development. Setup for ``32-bit`` development is equivalent, the main difference is in which files are linked.
+<img src="Screencaps/Additional_Dependencies.png" alt="Additional Include Dependencies window" />
 
 ## Testing
 
