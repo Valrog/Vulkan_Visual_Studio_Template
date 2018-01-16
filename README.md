@@ -59,7 +59,9 @@ Exporting a template is done through ``Project`` -> ``Export Template...`` -> ``
 
 # Removing Templates
 
-Removing a template from Visual Studio 2017 is done by deleting a template inside the ``ProjectTemplatesCache`` folder. Full path to this folder is located at ``%APPDATA%\Microsoft\VisualStudio\<version_ID>\ProjectTemplatesCache``
+Removing a template from Visual Studio 2017 is done by deleting a template inside the ``ProjectTemplates`` folder. Full path to this folder is located at ``%USERPROFILE%\Documents\Visual Studio 2017\Templates\``.
+
+It is also a preferable to clear the ``ProjectTemplatesCache`` folder. Full path to this folder is located at ``%APPDATA%\Microsoft\VisualStudio\<version_ID>\ProjectTemplatesCache``.
 
 [1]: https://vulkan-tutorial.com/Development_environment "Development Environment - Vulkan Tutorial"
 [2]: https://www.visualstudio.com/vs/ "Visual Studio IDE"
