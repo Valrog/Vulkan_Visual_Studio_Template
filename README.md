@@ -57,9 +57,9 @@ Exporting a template is done through ``Project`` -> ``Export Template...`` -> ``
 
 **Note:** Apparently it is normal behaviour for Visual Studio to not actually include the files when exporting C++ templates. A quick workaround is to simply drag and drop the main.cpp file into the ``Source Files``, instead of adding them through the ``New Item...`` option, before exporting the template. Doing this should solve missing file error.
 
+<img src="Screencaps/Template_Error.png" alt="Template error" />
+
 It is not known why Visual Studio chooses to ignore these files, considering the ``C#`` template export works as one would expect.
-
-
 
 <img src="Screencaps/New_Vulkan_Program.png" alt="New Vulkan Program" />
 
