@@ -55,13 +55,22 @@ After compiling the project, the command prompt and a blank window appear on the
 
 Exporting a template is done through ``Project`` -> ``Export Template...`` -> ``Project template`` window. ``Icon Image`` and ``Preview Image`` can be found in the ``Resources`` folder of this project.
 
+**Note:** Apparently it is normal behaviour for Visual Studio to not actually include the files when exporting C++ templates. A quick workaround is to simply drag and drop the main.cpp file into the ``Source Files``, instead of adding them through the ``New Item...`` option, before exporting the template. Doing this should solve missing file error.
+
+It is not known why Visual Studio chooses to ignore these files, considering the ``C#`` template export works as one would expect.
+
+
+
 <img src="Screencaps/New_Vulkan_Program.png" alt="New Vulkan Program" />
 
 # Removing Templates
 
-Removing a template from Visual Studio 2017 is done by deleting a template inside the ``ProjectTemplates`` folder. Full path to this folder is located at ``%USERPROFILE%\Documents\Visual Studio 2017\Templates\``.
+Removing a template from Visual Studio 2017 is done by deleting a template inside the ``ProjectTemplates`` folder. Full path to this folder is located at ``%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates``.
 
-It is also a preferable to clear the ``ProjectTemplatesCache`` folder. Full path to this folder is located at ``%APPDATA%\Microsoft\VisualStudio\<version_ID>\ProjectTemplatesCache``.
+It is also preferable to clear the ``ProjectTemplatesCache`` folder. Full path to this folder is located at ``%APPDATA%\Microsoft\VisualStudio\<version_ID>\ProjectTemplatesCache``.
+
+It is advised to also delete the templte from the ``My Exported Templates`` directory, which is located at ``%USERPROFILE%\Documents\Visual Studio 2017\My Exported Templates``.
+
 
 [1]: https://vulkan-tutorial.com/Development_environment "Development Environment - Vulkan Tutorial"
 [2]: https://www.visualstudio.com/vs/ "Visual Studio IDE"
