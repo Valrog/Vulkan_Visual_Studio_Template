@@ -25,6 +25,10 @@ A new ``C++ File (.cpp)`` is added to the ``Source Files``. This will serve as t
 
 Sample file is included in this guide and can be used as a starting point.
 
+## Writing The Source File
+
+In the ``main.cpp`` file, we add some Vulkan, GLFW and GLM code that serve as a starting point for the template. Includedd main.cpp in this project can be used. There will be errors before Visual Studio is fully configured. Testing function ``vulkan_glm_test()`` can be removed before exporting the template, to have a clean template for future projects.
+
 ## Configuring Properties
 
 Visual Studio must be configured to know where to find Vulkan dependencies and directories. These settings can be found under ``Project`` -> ``Properties``. ``All Configurations`` should be selected. Vulkan, GLFW and GLM header directories are included through ``C/C++`` -> ``General`` -> ``Additional Include Directories``.
