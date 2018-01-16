@@ -55,7 +55,7 @@ After compiling the project, the command prompt and a blank window appear on the
 
 Exporting a template is done through ``Project`` -> ``Export Template...`` -> ``Project template`` window. ``Icon Image`` and ``Preview Image`` can be found in the ``Resources`` folder of this project.
 
-**Note:** Apparently it is normal behaviour for Visual Studio to not actually include the files when exporting C++ templates. A quick workaround is to simply drag and drop the main.cpp file into the ``Source Files``, instead of adding them through the ``New Item...`` option, before exporting the template. Doing this should solve missing file error.
+**Note:** Apparently it is normal behaviour for Visual Studio to not actually include the files when exporting C++ templates. A quick workaround is to simply drag and drop the ``main.cpp`` file into the ``Source Files``, instead of adding them through the ``New Item...`` option, before exporting the template. Doing this should solve missing file error.
 
 <img src="Screencaps/Template_Error.png" alt="Template error" />
 
@@ -69,7 +69,7 @@ Removing a template from Visual Studio 2017 is done by deleting a template insid
 
 It is also preferable to clear the ``ProjectTemplatesCache`` folder. Full path to this folder is located at ``%APPDATA%\Microsoft\VisualStudio\<version_ID>\ProjectTemplatesCache``.
 
-It is advised to also delete the templte from the ``My Exported Templates`` directory, which is located at ``%USERPROFILE%\Documents\Visual Studio 2017\My Exported Templates``.
+It is advised to also delete the template from the ``My Exported Templates`` directory, which is located at ``%USERPROFILE%\Documents\Visual Studio 2017\My Exported Templates``.
 
 
 [1]: https://vulkan-tutorial.com/Development_environment "Development Environment - Vulkan Tutorial"
