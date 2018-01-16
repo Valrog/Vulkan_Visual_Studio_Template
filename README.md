@@ -47,9 +47,11 @@ After compiling the project, the command prompt and a blank window appear on the
 
 <img src="Screencaps/Compile_Test.png" alt="Vulkan window" />
 
-# Exporting Template
+# Exporting a Template
 
 Exporting a template is done through ``Project`` -> ``Export Template...`` -> ``Project template`` window. ``Icon Image`` and ``Preview Image`` can be found in the ``Resources`` folder of this project.
+
+<img src="Screencaps/New_Vulkan_Program.png" alt="New Vulkan Program" />
 
 # Removing Templates
 
